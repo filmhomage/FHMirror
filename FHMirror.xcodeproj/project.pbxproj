@@ -22,6 +22,7 @@
 		B99E1F761945F997003CDCD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99E1F551945F997003CDCD5 /* UIKit.framework */; };
 		B99E1F7E1945F997003CDCD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B99E1F7C1945F997003CDCD5 /* InfoPlist.strings */; };
 		B99E1F801945F997003CDCD5 /* FHMirrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E1F7F1945F997003CDCD5 /* FHMirrorTests.m */; };
+		B99E1F8A1945F9B8003CDCD5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99E1F891945F9B8003CDCD5 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		B99E1F7B1945F997003CDCD5 /* FHMirrorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FHMirrorTests-Info.plist"; sourceTree = "<group>"; };
 		B99E1F7D1945F997003CDCD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B99E1F7F1945F997003CDCD5 /* FHMirrorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHMirrorTests.m; sourceTree = "<group>"; };
+		B99E1F891945F9B8003CDCD5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B99E1F8A1945F9B8003CDCD5 /* AVFoundation.framework in Frameworks */,
 				B99E1F541945F997003CDCD5 /* CoreGraphics.framework in Frameworks */,
 				B99E1F561945F997003CDCD5 /* UIKit.framework in Frameworks */,
 				B99E1F521945F997003CDCD5 /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		B99E1F501945F997003CDCD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B99E1F891945F9B8003CDCD5 /* AVFoundation.framework */,
 				B99E1F511945F997003CDCD5 /* Foundation.framework */,
 				B99E1F531945F997003CDCD5 /* CoreGraphics.framework */,
 				B99E1F551945F997003CDCD5 /* UIKit.framework */,
